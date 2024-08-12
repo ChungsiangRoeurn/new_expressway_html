@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.background{
+    background-image:linear-gradient(rgba(52, 52, 135, 0.592),rgba(6, 15, 84, 0.832)), url(./img/photo_2023-06-15_14-05-40.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.background .login{
+    margin: 20px;
+    background-color: blue;;
+    color: #FFFFFF;
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+.container{
+    text-align: center;
+}
+.logo img{
+    padding-top: 10px;
+    width: 9%;
+}
+.text-logo h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    color: #DCDCDC;
+    margin-top: 5px;
+}
+.icon{
+    color: #DCDCDC;
+    font-size: 22px;
+}
+.image1 img {
+    border: 3px solid #0e1174;
+    /* color: blue; */
+    border-radius: 5px;
+}
+.banner img{
+    /* width: 800px; */
+    border: 3px solid #A18EE0;
+    /* color: blue; */
+    border-radius: 5px;
+}
+.bank img{
+    width: 55%;
+}
+.bank1 img{
+    width: 47%;
+}
+.footer_section{
+    color: #DCDCDC;
+    margin-top: 20px;
+}
+@media screen and (max-width: 576px) {
+    .text-logo h2{
+        font-size: 18px;
+    }
+    .text{
+        font-size: 20px;
+    }
